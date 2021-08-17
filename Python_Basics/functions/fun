@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+
+
+def pretty_desc(opsys, distro ):
+    full = f"{opsys} {distro}"
+    return full.title()
+
+while True:
+    c_opsys = input("Operating System: ")
+    c_distro = input("Distro: ")
+
+    clean_output = pretty_desc(c_opsys, c_distro)
+    print(f"{clean_output}")
+    break
+
+
+
+
+
+
+
+#Recursion
+# A Recursion function calls on itself
+#And works simialr to a loop
+#
+#def rec_fun(k):
+#  if(k > 0):
+#    result = k + rec_fun(k - 1)
+#    print(result)
+#  else:
+#    result = 0
+#  return result
+#
+#print("\n\nThis is what recursion looks like")
+#rec_fun(4)

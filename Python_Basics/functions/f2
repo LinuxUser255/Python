@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+
+
+
+for i in range(1,11):
+    print(i)
+
+
+#------------------------------------------------
+print(30*"-")
+print("\n")
+#----------------------------------------------
+
+for i in [1,2,3,4,5,6,7,8,9,'a','b','c','d']:
+    print(i)
+
+#----------------------------------------------------
+print(30*"-")
+#----------------------------------------------------
+
+cars = ['toyotas', 'hondas', 'kias', 'fords', 'lambos']
+for car in cars:
+    print(f"{car.title()}, are fun to drive.")
+
+
+# Loop through a slice to return just one item [:]
+cars = ['toyotas', 'hondas', 'kias', 'fords', 'lambos']
+for car in cars[:3]:
+    #print(car.title())
+    print(f"{car.title()}, are fun to drive.")
+
+
+
+#---------------------------------------------------------
+print(30*"-")
+print("\n")
+#---------------------------------------------------------
+
+
+# WHILE LOOP
+import time
+
+# While loop with break example
+# while a condition is true, do..
+i = 0
+
+while(True):
+        i += 1
+        time.sleep(0.05)
+        if (i == 60):
+            print("Reached 60")
+            time.sleep(1.0)
+            continue
+        print(i)
+        if (i == 80):
+            break
+
+
+#Combine continue with break for more control.
+
+
+
+
+
+
+
+
+
