@@ -52,7 +52,24 @@ class Point:
         return math.hypot(self.x - other.x, self.y - other.y)
         
 
-        
-# Create a point instance:
-# point = Point(3, 5)
-# print(point.x, point.y)
+test_main = """
+>>> main()
+p1.calculate_distance(p2)=5.0
+"""
+
+__test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
+
+
+def main() -> None:
+    """
+    Does the useful work.
+    >>> main()
+    p1.calculate_distance(p2)=5.0
+    """
+    p1 = Point()
+    p2 = Point(3, 4)
+    print(f"{p1.calculate_distance(p2)=}")
+
+
+if __name__ == "__main__":
+    main()
