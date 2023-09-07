@@ -3,7 +3,7 @@ To run this:
 - `pip3 install -r requirements.txt`
 - 
     ```
-    python download_images.py --help
+    python dl.py --help
     ```
     **Output:**
     ```
