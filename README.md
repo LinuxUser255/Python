@@ -1,6 +1,5 @@
 # Python
-This is a collection of Python code
-From basics to Object Oriented Programming
+Misc Python code. 
 
 ## Other Python repos worth noting
 https://github.com/ec-council-learning/Micro-Degree-in-Python-Security
