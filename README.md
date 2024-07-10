@@ -18,3 +18,5 @@ https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition
 https://github.com/PacktPublishing/Effective-Python-Penetration-Testing
 https://github.com/PacktPublishing/Functional-Python-Programming-Second-Edition
 https://github.com/PacktPublishing/Python-Web-Scraping-Cookbook
+https://github.com/PacktPublishing/Python-Penetration-Testing-Cookbook
+https://github.com/PacktPublishing/Python-Web-Scraping-Second-Edition
